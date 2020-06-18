@@ -1,0 +1,14 @@
+{
+  "name": "secret/santa",
+  "minimum-stability": "dev",
+  "require": {
+    "robmorgan/phinx": "dev-master",
+    "fzaninotto/faker": "^1.9@dev",
+    "symfony/yaml": "^5.1@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+}
